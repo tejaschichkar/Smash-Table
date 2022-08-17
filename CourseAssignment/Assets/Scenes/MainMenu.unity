@@ -368,7 +368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Smash Trio
+  m_Text: Smash Table
 --- !u!222 &197145560
 CanvasRenderer:
   m_ObjectHideFlags: 0
