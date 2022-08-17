@@ -6,13 +6,17 @@ public class Player2Goal : MonoBehaviour
 {
     public GameObject ball;
     public GameManager gameManager;
+    public GameObject Player1;
+    public GameObject Player2;
 
     void OnCollisionEnter(Collision col)
     {
-        if (ball != null)
+        if (col.gameObject == ball)
         {
             ball.transform.position = new Vector3(-0.3f, 1.15f, 0f);
             ball.GetComponent<Rigidbody>().velocity = new Vector3 (0, 0, 0);
+            Player1.transform.position = new Vector3(-0.3f, 1.15f, 2.25f);
+            Player2.transform.position = new Vector3(-0.3f, 1.15f, -2.25f);
             gameManager.CScoreIncrease();
         }
     }
