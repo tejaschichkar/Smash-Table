@@ -1731,6 +1731,8 @@ MonoBehaviour:
   cscore: 0
   win: 0
   loose: 0
+  source: {fileID: 0}
+  clip: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
 --- !u!4 &1222197628
 Transform:
   m_ObjectHideFlags: 0

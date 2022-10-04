@@ -78,6 +78,9 @@ ScriptsOnlyBuild:
     methodName: SoccerScene
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
+    methodName: HTPScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneController
     methodName: PongScene
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
@@ -91,7 +94,61 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneController
     methodName: MainScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneController
+    methodName: MainScene
   sceneClasses:
+    Assets/Scenes/HowToPlay.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1544}
+    - Class: 114
+      Script: {instanceID: 2648}
+    - Class: 114
+      Script: {instanceID: 2876}
+    - Class: 114
+      Script: {instanceID: 3178}
+    - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
+      Script: {instanceID: 5602}
+    - Class: 114
+      Script: {instanceID: 5934}
+    - Class: 114
+      Script: {instanceID: 6436}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -124,23 +181,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 4148}
+      Script: {instanceID: 4146}
     - Class: 114
-      Script: {instanceID: 4266}
+      Script: {instanceID: 4264}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 5320}
+      Script: {instanceID: 5318}
     - Class: 114
-      Script: {instanceID: 5512}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 5602}
     - Class: 114
-      Script: {instanceID: 5936}
+      Script: {instanceID: 5934}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 6436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -199,31 +256,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 3612}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4168}
     - Class: 114
-      Script: {instanceID: 4234}
+      Script: {instanceID: 4232}
     - Class: 114
-      Script: {instanceID: 4268}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 5512}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 5602}
     - Class: 114
-      Script: {instanceID: 5936}
+      Script: {instanceID: 5934}
     - Class: 114
-      Script: {instanceID: 6420}
+      Script: {instanceID: 6418}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 6436}
     - Class: 114
-      Script: {instanceID: 7320}
+      Script: {instanceID: 7318}
     - Class: 114
-      Script: {instanceID: 7716}
+      Script: {instanceID: 7714}
     - Class: 114
-      Script: {instanceID: 8198}
+      Script: {instanceID: 8196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -290,31 +347,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3180}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 4400}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4844}
+      Script: {instanceID: 4842}
     - Class: 114
-      Script: {instanceID: 5444}
+      Script: {instanceID: 5442}
     - Class: 114
-      Script: {instanceID: 5512}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5542}
     - Class: 114
-      Script: {instanceID: 5604}
+      Script: {instanceID: 5602}
     - Class: 114
-      Script: {instanceID: 5936}
+      Script: {instanceID: 5934}
     - Class: 114
-      Script: {instanceID: 6148}
+      Script: {instanceID: 6146}
     - Class: 114
-      Script: {instanceID: 6420}
+      Script: {instanceID: 6418}
     - Class: 114
-      Script: {instanceID: 6438}
+      Script: {instanceID: 6436}
     - Class: 114
-      Script: {instanceID: 6558}
+      Script: {instanceID: 6556}
     - Class: 114
-      Script: {instanceID: 8236}
+      Script: {instanceID: 8234}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1435,4 +1492,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Pong.unity
   - Assets/Scenes/Soccer.unity
-  playerPath: C:/Users/tejas/OneDrive/Documents/My project/Smash Table.exe
+  - Assets/Scenes/HowToPlay.unity
+  playerPath: C:/Users/tejas/OneDrive/Documents/New folder/Smash Table.exe
